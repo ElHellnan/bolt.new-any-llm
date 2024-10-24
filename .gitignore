@@ -27,5 +27,12 @@ dist-ssr
 .env.local
 .env
 *.vars
+
+# Ignore the credentials folder
+/credentials/
+
+# Ignore any JSON files (optional but recommended for extra security)
+*.json
+
 .wrangler
 _worker.bundle
